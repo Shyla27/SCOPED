@@ -9,6 +9,11 @@
  ### BUGS 
  #### CONTACT ME 
  ## TECH USED 
- 
+  *  Java 
+  * postgres
+  * 
+  *
+  *
+  
  # MIT LICENCE 
  
