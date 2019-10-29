@@ -18,11 +18,20 @@ public class DepartmentsTest {
 
         return null;
     }
-
     @Test
-    public void getDescriptionReturnsCorrectName()  {
+    public void getDescriptionReturnsCorrectDescription()  {
         Departments testDepartments = setupDepartments();
         assertEquals("Accounting" , testDepartments.getDescription());
+    }
+    @Test
+    public void getWebsiteReturnsWebsite() {
+        Departments testDepartments =setupDepartments();
+        assertEquals("" , testDepartments.getWebsite());
+    }
+    @Test
+    public void getEmailReturnEmail() {
+        Departments testDepartments =setupDepartments();
+        assertEquals("steak@steakhouse.com", testDepartments.getEmail());
     }
     @Test
     public void setEmailSetsCorrectEmail()  {

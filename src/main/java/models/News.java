@@ -3,22 +3,17 @@ package  models;
 import java.util.Objects;
 
  public  class News {
-  private String name;
   private String content;
   private  String author;
   private  int id;
   private  int departmentId;
      private Object news;
 
-     public News (String name , String content, String author , int departmentId ) {
-    this.name = name ;
+     public News ( String content, String author , int departmentId ) {
     this.content = content;
     this.author = author;
     this.departmentId = departmentId;
 
-  }
-  public String getName() {
-   return name;
   }
 
   public String getAuthor() { return author;}
@@ -29,7 +24,6 @@ import java.util.Objects;
 
     public void setDepartmentId( int departmentId) { this.departmentId= departmentId ;}
   public void  setAuthor(String author) { this.author = author; }
-  public void setName(String name) { this.name= author; }
   public void setContent(String content) { this.content = content;}
   public void setId(int id) { this.id= id; }
 

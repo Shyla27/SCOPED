@@ -7,21 +7,10 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
  public class NewsTest {
-     @Test
-     public void getNameReturnsCorrectName() {
-         News testNews = setupnews();
-         assertEquals("agile", testNews.getName());
-     }
 
      private News setupnews() {
      // method
          return null;
-     }
-
-     @Test
-     public  void setName() {
-      News  testNews = setupnews();
-         assertNotEquals("mary", testNews.getName());
      }
 
      @Test
