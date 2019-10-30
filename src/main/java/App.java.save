@@ -1,0 +1,16 @@
+
+import com.google.gson.Gson;
+import dao.SqDao;
+import dao.Sql2oDepartmentsDao;
+import models.Depertments;
+import org.sql2o.Connection;
+import org.sql2o.Sql2o;
+import static spark.Spark.*;
+
+
+public class App {
+    public  static void main(String[] args) {
+ Sql2o
+
+    }
+}
