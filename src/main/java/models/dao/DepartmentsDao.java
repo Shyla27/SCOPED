@@ -1,22 +1,25 @@
-package models.dao;
+package dao;
+
 
 import models.Departments;
+import models.News;
 
 import java.util.List;
 
 public interface DepartmentsDao {
-     // create
-    void add (Departments departments);
+    //create
+    void add (Departments department);
+    void addDepartmentToNews(Departments department, News news);
 
     //read
     List<Departments> getAll();
     Departments findById(int id);
+    List<News> getAllNewsByDepartment(int departmentId);
 
-    // update
-    void update (int id, String name, String description,int workers,String website, String email );
+    //update
+    void update(int id, String name, String description, int numberOfEmployees);
 
-        void deleteById(int id);
-         void clearAll();
-
-
+    //delete
+    void deleteById(int id);
+    void clearAll();
 }

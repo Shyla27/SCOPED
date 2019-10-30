@@ -10,7 +10,7 @@ package models;
     private String website;
     private int id;
 
-    public Departments(String name, String description, Integer workers, String email, String website) {
+    public Departments(String name, String description, Integer workers) {
         this.name = name;
         this.description = description;
         this.workers = workers;
